@@ -1,0 +1,11 @@
+.d_flex {
+  display: flex;
+}
+
+.display {
+  width: 600px;
+  height: 40px;
+  border: solid black;
+  margin: 5px;
+  display: flex;
+}

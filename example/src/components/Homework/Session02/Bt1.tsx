@@ -12,13 +12,13 @@ const Bt1: React.FC<IProps> = (Props) => {
   return (
     <div className={Style.all_body}>
       <div style={{ backgroundColor: `${color_1}`, flex: "0.2" }}>
-        <p>{title}</p>
+        <p className={Style.title__style}>{title}</p>
       </div>
       <div className={Style.d_flex} style={{ flex: "0.8" }}>
         <div
           style={{ backgroundColor: `${color_2}`, flex: `${percent / 100}` }}
         >
-          <p>{percent}%</p>
+          <p className={Style.title__style}>{percent}%</p>
         </div>
         <div></div>
       </div>

@@ -6,6 +6,7 @@ import JSX from "./components/example/JSX/JSX";
 import Bt1 from "./components/Homework/Session02/Bt1";
 import Bt1Class from "./components/Homework/Session02/Bt1Class";
 import Volume from "./components/example/JSX/Session03/Volume";
+import LikeRate from "./components/example/JSX/Session03/LikeRate";
 function App() {
   return (
     // <div>
@@ -97,7 +98,8 @@ function App() {
     //   <JSX />
     //   <Footer /> */}
     // </div>
-    <Volume percent={0} />
+    //<Volume percent={0} />
+    <LikeRate />
   );
 }
 
